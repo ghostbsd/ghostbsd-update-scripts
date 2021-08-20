@@ -22,4 +22,4 @@ for service in $openrc_services ; do
   sysrc `echo $service | tr - _`_enable="YES"
 done
 
-sysrc -f /boot/loader.conf rc_system="bsdrc
+sysrc -f /boot/loader.conf rc_system="bsdrc"
